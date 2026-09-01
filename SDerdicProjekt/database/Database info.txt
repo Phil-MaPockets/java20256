@@ -58,13 +58,17 @@ INSERT INTO TICKETS (seat, train, status, price, class) VALUES
 (3, 5, 'UNRESERVED', 164.27868669016444, 'Economy');
 
 INSERT INTO TRAINS (STATION,NAME,DEPARTURE,ARRIVAL)
-values (5,'Dreamliner 792','2027-11-06 STATIONS 17:15:00','2027-11-06 18:00:00')
+VALUES
+(1,'Gredelj 792','2027-11-06 17:15:00','2027-11-06 18:00:00'),
+(2,'MAVAG 732','2027-11-07 17:45:00','2027-11-07 18:00:00'),
+(3,'Koncar 67','2027-11-08 17:30:00','2027-11-08 18:00:00'),
+(4,'Siemens 132','2027-11-09 17:15:00','2027-11-09 18:00:00');
 
 INSERT INTO STATIONS (name, street_name, street_number, postal_code, city_name)
 VALUES
-('Zračna luka Zagreb', 'Ul. Rudolfa Fizira', '21', '10410', 'Velika Gorica'),
-('Zračna luka Munich', 'Nordallee', '25', '85356', 'Flughafen München'),
-('Paris Orly Station', 'Orly', '0', '94390', 'Paris'),
-('Gdansk Lech Walesa Station', 'Juliusza Slowackiego', '200', '80-298', 'Gdansk'),
-('Vladivostok International Station', 'Vladimira Saybelya St.', '45', '692756', 'Vladivostok'),
-('Zračna luka Ljubljana', 'Zgornji Brnik', '130a', '4210', 'Ljubljana');
+('Glavni Kolodvor', 'Trg Kralja Tomislava', '12', '10000', 'Zagreb'),
+('Kolodvor Split', 'Obala kneza Domagoja', '9', '21000', 'Split'),
+('Kolodvor Osijek', 'Trg Ljudevita Gaja', '54', '31000', 'Osijek'),
+('Kolodvor Varazdin', 'Kolodvorska ulica', '17', '42000', 'Varazdin'),
+('Kolodvor Ljubljana', 'Trg Osvobodilne fronte.', '7', '1000', 'Ljubljana'),
+('Frankfurt Hauptbahnhof', 'Frankfurt am MainInnenstadt', '1', '60329', 'Frankfurt');

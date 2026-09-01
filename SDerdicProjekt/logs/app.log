@@ -2519,3 +2519,8 @@ CREATE TABLE STATIONS_BACKUP AS SELECT * FROM STATIONS [42101-240]
 2026-09-01 18:52:23 [virtual-52] INFO  hr.javafx.data.JsonFileManager - Data saved to JSON file: Users.json
 2026-09-01 18:52:23 [virtual-52] INFO  h.j.c.TicketReservationController - Ticket 2 reserved by Stjepan
 2026-09-01 18:52:26 [virtual-55] WARN  h.j.c.TicketReservationController - Ticket 2 is reserved by Test
+2026-09-01 20:53:06 [JavaFX Application Thread] ERROR h.j.c.StationInputController - Station with the same name already exists: asd
+2026-09-01 20:53:07 [JavaFX Application Thread] INFO  hr.javafx.data.UserChangeLogger - Action logged: Created by sderdic
+2026-09-01 21:03:58 [virtual-45] INFO  hr.javafx.data.JsonFileManager - Data saved to JSON file: Users.json
+2026-09-01 21:03:58 [virtual-45] INFO  h.j.c.TicketReservationController - Ticket 6 reserved by Stjepan
+2026-09-01 21:03:59 [virtual-50] WARN  h.j.c.TicketReservationController - Ticket 6 is reserved by Stjepan

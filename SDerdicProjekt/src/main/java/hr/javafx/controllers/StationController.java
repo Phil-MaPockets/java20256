@@ -83,8 +83,8 @@ public class StationController {
             DialogUtils.wrongInputAlert(stationPostalCodeFilter,postalCodeLabel.getText());
         }else{
             List<Station> stationsFiltered= stations.stream().
-                    filter(airplane -> airplane.getStationName().toLowerCase().contains(stationNameFilter.toLowerCase())).
-                    filter(airplane -> airplane.getAddress().cityName().toLowerCase().contains(stationCityFilter.toLowerCase())).
+                    filter(train -> train.getStationName().toLowerCase().contains(stationNameFilter.toLowerCase())).
+                    filter(train -> train.getAddress().cityName().toLowerCase().contains(stationCityFilter.toLowerCase())).
                     filter(station ->  station.getAddress().streetNumber().toLowerCase().contains(stationStreetNumberFilter.toLowerCase())).
                     filter(station ->  station.getAddress().postalCode().toLowerCase().contains(stationPostalCodeFilter.toLowerCase())).
                     filter(station -> station.getAddress().streetName().toLowerCase().contains(stationStreetNameFilter.toLowerCase())).
@@ -112,7 +112,7 @@ public class StationController {
             TrainAdministrationApplication.getMainStage().show();
         } catch (IOException _) {
             DialogUtils.showDisplayingScreenError();
-            log.error("There was an error while selecting an airplane");
+            log.error("There was an error while selecting an train");
         }
 
     }

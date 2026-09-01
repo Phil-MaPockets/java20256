@@ -53,6 +53,13 @@
                 "price": 787.4002807589993,
                 "seatNumber": 1,
                 "trainID": 1
+            },
+            {
+                "ticketType": "BusinessClass",
+                "id": 6,
+                "price": 721.7910899171615,
+                "seatNumber": 1,
+                "trainID": 2
             }
         ],
         "username": "sderdic"
@@ -70,6 +77,13 @@
                 "price": 787.4002807589993,
                 "seatNumber": 1,
                 "trainID": 1
+            },
+            {
+                "ticketType": "BusinessClass",
+                "id": 6,
+                "price": 721.7910899171615,
+                "seatNumber": 1,
+                "trainID": 2
             }
         ],
         "username": "sderdic"
