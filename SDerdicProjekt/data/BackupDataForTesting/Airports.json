@@ -1,0 +1,267 @@
+[
+    {
+        "address": {
+            "cityName": "Velika Gorica",
+            "postalCode": "10410",
+            "streetName": "Ul. Rudolfa Fizira",
+            "streetNumber": "21"
+        },
+        "airplanes": [
+            {
+                "airplaneName": "Boeing 747",
+                "arrivalTime": "2027-11-04T20:00:00",
+                "departureTime": "2027-11-04T16:30:00",
+                "id": 0,
+                "stationID": 1,
+                "tickets": [
+                    {
+                        "ticketType": "FirstClass",
+                        "airplaneID": 1,
+                        "id": 1,
+                        "price": 1615.0528196673449000,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 0
+                    },
+                    {
+                        "ticketType": "BusinessClass",
+                        "airplaneID": 1,
+                        "id": 2,
+                        "price": 787.4002807589993500,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 1
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 1,
+                        "id": 3,
+                        "price": 189.0073740557835200,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 2
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 1,
+                        "id": 4,
+                        "price": 155.6837977856267400,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 3
+                    }
+                ]
+            }
+        ],
+        "airportName": "Zračna luka Zagreb",
+        "id": 1
+    },
+    {
+        "address": {
+            "cityName": "Flughafen München",
+            "postalCode": "85356",
+            "streetName": "Nordallee",
+            "streetNumber": "25"
+        },
+        "airplanes": [
+            {
+                "airplaneName": "Airbus A320",
+                "arrivalTime": "2027-11-05T22:15:00",
+                "departureTime": "2027-11-05T17:00:00",
+                "id": 1,
+                "stationID": 2,
+                "tickets": [
+                    {
+                        "ticketType": "FirstClass",
+                        "airplaneID": 2,
+                        "id": 5,
+                        "price": 1242.51707700061054000,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 0
+                    },
+                    {
+                        "ticketType": "BusinessClass",
+                        "airplaneID": 2,
+                        "id": 6,
+                        "price": 721.7910899171614500,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 1
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 2,
+                        "id": 7,
+                        "price": 132.5342811641138300,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 2
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 2,
+                        "id": 8,
+                        "price": 115.06728791292423200,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 3
+                    }
+                ]
+            }
+        ],
+        "airportName": "Zračna luka Munich",
+        "id": 2
+    },
+    {
+        "address": {
+            "cityName": "Paris",
+            "postalCode": "94390",
+            "streetName": "Orly",
+            "streetNumber": "0"
+        },
+        "airplanes": [
+            {
+                "airplaneName": "Ebraer 120",
+                "arrivalTime": "2027-11-05T15:30:00",
+                "departureTime": "2027-11-05T12:40:00",
+                "id": 2,
+                "stationID": 3,
+                "tickets": [
+                    {
+                        "ticketType": "FirstClass",
+                        "airplaneID": 3,
+                        "id": 9,
+                        "price": 1675.149006914446000,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 0
+                    },
+                    {
+                        "ticketType": "BusinessClass",
+                        "airplaneID": 3,
+                        "id": 10,
+                        "price": 756.4913894073922500,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 1
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 3,
+                        "id": 11,
+                        "price": 102.142411926456422300,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 2
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 3,
+                        "id": 12,
+                        "price": 172.9206619527118700,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 3
+                    }
+                ]
+            }
+        ],
+        "airportName": "Paris Orly Airport",
+        "id": 3
+    },
+    {
+        "address": {
+            "cityName": "Gdansk",
+            "postalCode": "80-298",
+            "streetName": "Juliusza Slowackiego",
+            "streetNumber": "200"
+        },
+        "airplanes": [
+            {
+                "airplaneName": "Airbus A300",
+                "arrivalTime": "2027-11-06T02:15:00",
+                "departureTime": "2027-11-05T22:30:00",
+                "id": 3,
+                "stationID": 4,
+                "tickets": [
+                    {
+                        "ticketType": "FirstClass",
+                        "airplaneID": 4,
+                        "id": 13,
+                        "price": 1262.5903324075679000,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 0
+                    },
+                    {
+                        "ticketType": "BusinessClass",
+                        "airplaneID": 4,
+                        "id": 14,
+                        "price": 949.0770138249594500,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 1
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 4,
+                        "id": 15,
+                        "price": 167.7025735416383200,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 2
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 4,
+                        "id": 16,
+                        "price": 136.7638816852495200,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 3
+                    }
+                ]
+            }
+        ],
+        "airportName": "Gdansk Lech Walesa Airport",
+        "id": 4
+    },
+    {
+        "address": {
+            "cityName": "Vladivostok",
+            "postalCode": "692756",
+            "streetName": "Vladimira Saybelya St.",
+            "streetNumber": "45"
+        },
+        "airplanes": [
+            {
+                "airplaneName": "Dreamliner 792",
+                "arrivalTime": "2027-11-06T18:00:00",
+                "departureTime": "2027-11-06T17:20:00",
+                "id": 4,
+                "stationID": 5,
+                "tickets": [
+                    {
+                        "ticketType": "FirstClass",
+                        "airplaneID": 5,
+                        "id": 17,
+                        "price": 1046.75446392787275000,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 0
+                    },
+                    {
+                        "ticketType": "BusinessClass",
+                        "airplaneID": 5,
+                        "id": 18,
+                        "price": 718.35755272598567000,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 1
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 5,
+                        "id": 19,
+                        "price": 129.4531602520258100,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 2
+                    },
+                    {
+                        "ticketType": "Economy",
+                        "airplaneID": 5,
+                        "id": 20,
+                        "price": 184.9567437780920900,
+                        "reserved": "UNRESERVED",
+                        "seatNumber": 3
+                    }
+                ]
+            }
+        ],
+        "airportName": "Vladivostok International Airport",
+        "id": 5
+    }
+]

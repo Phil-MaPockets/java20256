@@ -1,0 +1,7 @@
+module:hr.javafx.main
+hr.javafx.controllers
+hr.javafx.data
+hr.javafx.exceptions
+hr.javafx.main
+hr.javafx.model
+hr.javafx.util

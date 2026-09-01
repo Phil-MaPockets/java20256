@@ -1,0 +1,77 @@
+[
+    {
+        "id": 0,
+        "name": "Roman",
+        "password": "$2a$12$XZ6WwJ0DzqOf1mu9rtZl3OPKJ0x2HAB6MzwZyk.F1R7hL37vGi38C",
+        "role": "ADMIN",
+        "surname": "Kuzman",
+        "tickets": [
+            {
+                "ticketType": "Economy",
+                "id": 3,
+                "price": 189.00737405578352,
+                "seatNumber": 2,
+                "trainID": 0
+            }
+        ],
+        "username": "rkuzman"
+    },
+    {
+        "id": 2,
+        "name": "Test",
+        "password": "$2a$12$KaThcxEJjmZtPsMMsXUjTOlUwLPDEon7iAjrQfkWBlE82Jwg9BMkK",
+        "role": "USER",
+        "surname": "Test",
+        "tickets": [
+            {
+                "ticketType": "FirstClass",
+                "id": 1,
+                "price": 1615.052819667345,
+                "seatNumber": 0,
+                "trainID": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "id": 2,
+                "price": 787.4002807589993,
+                "seatNumber": 1,
+                "trainID": 0
+            }
+        ],
+        "username": "Test"
+    },
+    {
+        "id": 3,
+        "name": "Stjepan",
+        "password": "$2a$12$FkRJHzOlOmNsxKQthMdqj.kJjnyR7KbQx0O72Lf3/xe15mad0QeCy",
+        "role": "ADMIN",
+        "surname": "Derdic",
+        "tickets": [
+            {
+                "ticketType": "BusinessClass",
+                "id": 2,
+                "price": 787.4002807589993,
+                "seatNumber": 1,
+                "trainID": 1
+            }
+        ],
+        "username": "sderdic"
+    },
+    {
+        "id": 3,
+        "name": "Stjepan",
+        "password": "$2a$12$FkRJHzOlOmNsxKQthMdqj.kJjnyR7KbQx0O72Lf3/xe15mad0QeCy",
+        "role": "ADMIN",
+        "surname": "Derdic",
+        "tickets": [
+            {
+                "ticketType": "BusinessClass",
+                "id": 2,
+                "price": 787.4002807589993,
+                "seatNumber": 1,
+                "trainID": 1
+            }
+        ],
+        "username": "sderdic"
+    }
+]

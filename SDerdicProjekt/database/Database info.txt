@@ -1,0 +1,70 @@
+Table creation SQL:
+
+CREATE TABLE TICKETS (
+    id INT NOT NULL GENERATED ALWAYS AS IDENTITY,
+    seat INT NOT NULL,
+    train INT NOT NULL,
+    status VARCHAR(10) NOT NULL,
+    price FLOAT NOT NULL,
+    class VARCHAR(10) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE TRAINS (
+    id INT NOT NULL GENERATED ALWAYS AS IDENTITY,
+    station INT NOT NULL,
+    name VARCHAR (20) NOT NULL,
+    departure TIMESTAMP NOT NULL,
+    arrival TIMESTAMP NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE STATIONS (
+    id INT NOT NULL GENERATED ALWAYS AS IDENTITY,
+    name VARCHAR (40) NOT NULL,
+    street_name VARCHAR (30) NOT NULL,
+    street_number VARCHAR (20) NOT NULL,
+    postal_code VARCHAR (20) NOT NULL,
+    city_name VARCHAR (20) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+Data insert:
+
+INSERT INTO TICKETS (seat, train, status, price, class) VALUES
+(0, 1, 'RESERVED', 1615.0528196673449, 'FirstClass'),
+(1, 1, 'UNRESERVED', 787.40028075899935, 'Business'),
+(2, 1, 'UNRESERVED', 189.00737405578352, 'Economy'),
+(3, 1, 'UNRESERVED', 155.68379778562674, 'Economy'),
+(0, 2, 'UNRESERVED', 1242.5170770006105, 'FirstClass'),
+(1, 2, 'UNRESERVED', 721.79108991716145, 'Business'),
+(2, 2, 'UNRESERVED', 132.53428116411383, 'Economy'),
+(3, 2, 'UNRESERVED', 115.06728791292423, 'Economy'),
+(0, 3, 'UNRESERVED', 1675.149006914446, 'FirstClass'),
+(1, 3, 'UNRESERVED', 756.49138940739225, 'Business'),
+(2, 3, 'UNRESERVED', 102.14241192645642, 'Economy'),
+(3, 3, 'UNRESERVED', 172.92066195271187, 'Economy'),
+(0, 4, 'UNRESERVED', 1262.5903324075679, 'FirstClass'),
+(1, 4, 'UNRESERVED', 949.07701382495945, 'Business'),
+(2, 4, 'UNRESERVED', 167.70257354163832, 'Economy'),
+(3, 4, 'UNRESERVED', 136.76388168524952, 'Economy'),
+(0, 5, 'UNRESERVED', 1046.7544639278728, 'FirstClass'),
+(1, 5, 'UNRESERVED', 718.35755272598567, 'Business'),
+(2, 5, 'UNRESERVED', 129.45316025202581, 'Economy'),
+(3, 5, 'UNRESERVED', 184.95674377809209, 'Economy'),
+(0, 5, 'UNRESERVED', 1167.5454308410705, 'FirstClass'),
+(1, 5, 'UNRESERVED', 732.09381716176103, 'Business'),
+(2, 5, 'UNRESERVED', 189.32294934410261, 'Economy'),
+(3, 5, 'UNRESERVED', 164.27868669016444, 'Economy');
+
+INSERT INTO TRAINS (STATION,NAME,DEPARTURE,ARRIVAL)
+values (5,'Dreamliner 792','2027-11-06 STATIONS 17:15:00','2027-11-06 18:00:00')
+
+INSERT INTO STATIONS (name, street_name, street_number, postal_code, city_name)
+VALUES
+('Zračna luka Zagreb', 'Ul. Rudolfa Fizira', '21', '10410', 'Velika Gorica'),
+('Zračna luka Munich', 'Nordallee', '25', '85356', 'Flughafen München'),
+('Paris Orly Station', 'Orly', '0', '94390', 'Paris'),
+('Gdansk Lech Walesa Station', 'Juliusza Slowackiego', '200', '80-298', 'Gdansk'),
+('Vladivostok International Station', 'Vladimira Saybelya St.', '45', '692756', 'Vladivostok'),
+('Zračna luka Ljubljana', 'Zgornji Brnik', '130a', '4210', 'Ljubljana');

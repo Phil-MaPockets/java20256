@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Roman",
+        "surname": "Kuzman",
+        "tickets": [
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Stjepan",
+        "surname": "Derdic",
+        "tickets": [
+        ]
+    },
+    {
+        "id": 3,
+        "name": "David",
+        "surname": "Tensek",
+        "tickets": [
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Matija",
+        "surname": "Aleksic",
+        "tickets": [
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Karlo",
+        "surname": "Mlakic",
+        "tickets": [
+        ]
+    }
+]

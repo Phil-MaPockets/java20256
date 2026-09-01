@@ -1,0 +1,460 @@
+[
+    {
+        "airplaneName": "Boeing 747",
+        "airplaneTickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 1,
+                "id": 3,
+                "price": 1615.052819667345,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 1,
+                "id": 4,
+                "price": 787.4002807589993,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 1,
+                "id": 5,
+                "price": 189.00737405578352,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 1,
+                "id": 6,
+                "price": 155.68379778562675,
+                "seatNumber": 3
+            }
+        ],
+        "arrivalTime": "2027-11-04T20:00:00",
+        "departureTime": "2027-11-04T16:30:00",
+        "id": 1,
+        "stationID": 1,
+        "tickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 1,
+                "id": 3,
+                "price": 1615.052819667345,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 1,
+                "id": 4,
+                "price": 787.4002807589993,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 1,
+                "id": 5,
+                "price": 189.00737405578352,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 1,
+                "id": 6,
+                "price": 155.68379778562675,
+                "seatNumber": 3
+            }
+        ]
+    },
+    {
+        "airplaneName": "Airbus A320",
+        "airplaneTickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 2,
+                "id": 7,
+                "price": 1242.5170770006105,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 2,
+                "id": 8,
+                "price": 721.7910899171615,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 2,
+                "id": 9,
+                "price": 132.53428116411382,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 2,
+                "id": 10,
+                "price": 115.06728791292423,
+                "seatNumber": 3
+            }
+        ],
+        "arrivalTime": "2027-11-05T22:15:00",
+        "departureTime": "2027-11-05T17:00:00",
+        "id": 2,
+        "stationID": 2,
+        "tickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 2,
+                "id": 7,
+                "price": 1242.5170770006105,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 2,
+                "id": 8,
+                "price": 721.7910899171615,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 2,
+                "id": 9,
+                "price": 132.53428116411382,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 2,
+                "id": 10,
+                "price": 115.06728791292423,
+                "seatNumber": 3
+            }
+        ]
+    },
+    {
+        "airplaneName": "Ebraer 120",
+        "airplaneTickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 3,
+                "id": 11,
+                "price": 1675.149006914446,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 3,
+                "id": 12,
+                "price": 756.4913894073923,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 3,
+                "id": 13,
+                "price": 102.14241192645642,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 3,
+                "id": 14,
+                "price": 172.92066195271187,
+                "seatNumber": 3
+            }
+        ],
+        "arrivalTime": "2027-11-05T15:30:00",
+        "departureTime": "2027-11-05T12:45:00",
+        "id": 3,
+        "stationID": 3,
+        "tickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 3,
+                "id": 11,
+                "price": 1675.149006914446,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 3,
+                "id": 12,
+                "price": 756.4913894073923,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 3,
+                "id": 13,
+                "price": 102.14241192645642,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 3,
+                "id": 14,
+                "price": 172.92066195271187,
+                "seatNumber": 3
+            }
+        ]
+    },
+    {
+        "airplaneName": "Airbus A300",
+        "airplaneTickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 4,
+                "id": 15,
+                "price": 1262.590332407568,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 4,
+                "id": 16,
+                "price": 949.0770138249594,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 4,
+                "id": 17,
+                "price": 167.70257354163832,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 4,
+                "id": 18,
+                "price": 136.76388168524952,
+                "seatNumber": 3
+            }
+        ],
+        "arrivalTime": "2027-11-06T02:15:00",
+        "departureTime": "2027-11-05T22:30:00",
+        "id": 4,
+        "stationID": 4,
+        "tickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 4,
+                "id": 15,
+                "price": 1262.590332407568,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 4,
+                "id": 16,
+                "price": 949.0770138249594,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 4,
+                "id": 17,
+                "price": 167.70257354163832,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 4,
+                "id": 18,
+                "price": 136.76388168524952,
+                "seatNumber": 3
+            }
+        ]
+    },
+    {
+        "airplaneName": "Dreamliner 792",
+        "airplaneTickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 5,
+                "id": 19,
+                "price": 1046.7544639278728,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 5,
+                "id": 20,
+                "price": 718.3575527259857,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 21,
+                "price": 129.4531602520258,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 22,
+                "price": 184.9567437780921,
+                "seatNumber": 3
+            },
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 5,
+                "id": 23,
+                "price": 1167.5454308410706,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 5,
+                "id": 24,
+                "price": 732.0938171617611,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 25,
+                "price": 189.3229493441026,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 26,
+                "price": 164.27868669016445,
+                "seatNumber": 3
+            }
+        ],
+        "arrivalTime": "2027-11-06T18:00:00",
+        "departureTime": "2027-11-06T17:15:00",
+        "id": 5,
+        "stationID": 5,
+        "tickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 5,
+                "id": 19,
+                "price": 1046.7544639278728,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 5,
+                "id": 20,
+                "price": 718.3575527259857,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 21,
+                "price": 129.4531602520258,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 22,
+                "price": 184.9567437780921,
+                "seatNumber": 3
+            },
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 5,
+                "id": 23,
+                "price": 1167.5454308410706,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 5,
+                "id": 24,
+                "price": 732.0938171617611,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 25,
+                "price": 189.3229493441026,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 26,
+                "price": 164.27868669016445,
+                "seatNumber": 3
+            }
+        ]
+    },
+    {
+        "airplaneName": "Amongus 717",
+        "airplaneTickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 5,
+                "id": 0,
+                "price": 1646.832510044446000,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 5,
+                "id": 1,
+                "price": 656.9565828403957000,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 2,
+                "price": 185.961351440933600,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 3,
+                "price": 164.299332288136300,
+                "seatNumber": 3
+            }
+        ],
+        "arrivalTime": "2027-01-09T01:00:00",
+        "departureTime": "2027-01-09T00:30:00",
+        "id": 5,
+        "stationID": 1,
+        "tickets": [
+            {
+                "ticketType": "FirstClass",
+                "airplaneID": 5,
+                "id": 0,
+                "price": 1646.832510044446000,
+                "seatNumber": 0
+            },
+            {
+                "ticketType": "BusinessClass",
+                "airplaneID": 5,
+                "id": 1,
+                "price": 656.9565828403957000,
+                "seatNumber": 1
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 2,
+                "price": 185.961351440933600,
+                "seatNumber": 2
+            },
+            {
+                "ticketType": "Economy",
+                "airplaneID": 5,
+                "id": 3,
+                "price": 164.299332288136300,
+                "seatNumber": 3
+            }
+        ]
+    }
+]
