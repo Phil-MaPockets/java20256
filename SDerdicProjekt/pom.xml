@@ -7,7 +7,7 @@
     <groupId>hr.javafx</groupId>
     <artifactId>main</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>RomanKuzmanProjekt</name>
+    <name>StjepanDerdic</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
