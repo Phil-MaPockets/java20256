@@ -107,7 +107,7 @@ public class DatabaseManager{
         return false;
     }
     /**
-     * checks if an Train with the same name already exists in the table TRAINS
+     * checks if a Train with the same name already exists in the table TRAINS
      * @param train is the station that we are checking
      * @return gives the information if a duplicate exists
      * @throws SQLException in the case of an SQL error
@@ -123,7 +123,7 @@ public class DatabaseManager{
 
     /**
      * inserts the station into the table STATIONS
-     * @param station is the Station that that are being added
+     * @param station is the Station that are being added
      * @throws DuplicateStationException in the case the Station already exists
      * @throws SQLException in the case of an SQL error
      * @throws IOException in the case that DATABASE_PROPERTIES cannot be found
@@ -179,8 +179,9 @@ public class DatabaseManager{
      * creates a table TRAINS_BACKUP with all the information currently inside the table TRAINS
      */
     public static void backupTrainsTable(){
-        try(Connection db=connectToDatabase();PreparedStatement query=db.prepareStatement("CREATE TABLE TRAINS_BACKUP AS SELECT * FROM TRAINS;")){
+        try(Connection db=connectToDatabase();PreparedStatement query=db.prepareStatement("DROP TABLE IF EXISTS TRAINS_BACKUP; CREATE TABLE TRAINS_BACKUP AS SELECT * FROM TRAINS;")){
             query.executeUpdate();
+
         } catch(SQLException|IOException e){
             log.error("Error backing up the database", e);}
     }
@@ -189,7 +190,7 @@ public class DatabaseManager{
      * creates a table STATIONS_BACKUP with all the information currently inside the table STATIONS
      */
     public static void backupStationsTable(){
-        try(Connection db=connectToDatabase();PreparedStatement query=db.prepareStatement("CREATE TABLE STATIONS_BACKUP AS SELECT * FROM STATIONS;")){
+        try(Connection db=connectToDatabase();PreparedStatement query=db.prepareStatement("DROP TABLE IF EXISTS STATIONS_BACKUP; CREATE TABLE STATIONS_BACKUP AS SELECT * FROM STATIONS;")){
             query.executeUpdate();
         } catch(SQLException|IOException e){
             log.error("Error backing up the database", e);}
@@ -222,7 +223,7 @@ public class DatabaseManager{
     }
 
     /**
-     * deletes an Train from the table TRAINS
+     * deletes a Train from the table TRAINS
      * @param train is the Train that will be deleted
      */
     public static void deleteTrain(Train train){
@@ -235,7 +236,7 @@ public class DatabaseManager{
     }
 
     /**
-     * deletes an Station from the table STATIONS
+     * deletes a Station from the table STATIONS
      * @param station is the Station that will be deleted
      */
     public static void deleteStation(Station station){
@@ -247,7 +248,7 @@ public class DatabaseManager{
     }
 
     /**
-     * deletes all the Tickets that are connected to an Train
+     * deletes all the Tickets that are connected to a Train
      * @param train is the Train for which the Tickets are deleted
      */
     public static void deleteTicketsForTrain(Train train){

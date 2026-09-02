@@ -60,6 +60,20 @@
                 "price": 721.7910899171615,
                 "seatNumber": 1,
                 "trainID": 2
+            },
+            {
+                "ticketType": "BusinessClass",
+                "id": 10,
+                "price": 756.4913894073923,
+                "seatNumber": 1,
+                "trainID": 3
+            },
+            {
+                "ticketType": "Economy",
+                "id": 7,
+                "price": 132.53428116411382,
+                "seatNumber": 2,
+                "trainID": 2
             }
         ],
         "username": "sderdic"
@@ -83,6 +97,20 @@
                 "id": 6,
                 "price": 721.7910899171615,
                 "seatNumber": 1,
+                "trainID": 2
+            },
+            {
+                "ticketType": "BusinessClass",
+                "id": 10,
+                "price": 756.4913894073923,
+                "seatNumber": 1,
+                "trainID": 3
+            },
+            {
+                "ticketType": "Economy",
+                "id": 7,
+                "price": 132.53428116411382,
+                "seatNumber": 2,
                 "trainID": 2
             }
         ],

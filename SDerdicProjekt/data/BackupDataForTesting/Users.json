@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "name": "Roman",
-        "surname": "Kuzman",
+        "name": "Stjepan",
+        "surname": "Derdic",
         "tickets": [
         ]
     },
     {
         "id": 2,
-        "name": "Stjepan",
-        "surname": "Derdic",
+        "name": "Roman",
+        "surname": "Kuzman",
         "tickets": [
         ]
     },
