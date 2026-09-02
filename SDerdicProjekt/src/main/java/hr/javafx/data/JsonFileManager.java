@@ -26,7 +26,7 @@ public class JsonFileManager {
      * saves data that is passed on into a .Json file
      * @param filePath is the location of the .Json file in which the data is being saved
      * @param data is the data being saved
-     * @param <T> technically legacy because i forgot to change it to User, all .Json files were being used before
+     * @param <T> technically legacy because I forgot to change it to User, all .Json files were being used before
      */
     public static <T> void saveToJson(String filePath, List<T> data) {
         try (Writer writer = new FileWriter("data/"+filePath)) {
@@ -56,7 +56,7 @@ public class JsonFileManager {
      * @param filePath is the path to the .Json file which is used to create the List
      * @param type is the name of the Class that we are casting into
      * @return is the List of data created
-     * @param <T> technically legacy because i forgot to change it to User, all .Json files were being used before
+     * @param <T> technically legacy because I forgot to change it to User, all .Json files were being used before
      */
     public static <T> List<T> createObjects(String filePath, Type type) {
         try {

@@ -52,7 +52,7 @@ public class TrainInputController {
     }
 
     /**
-     * Performs the insertion of an train based on the information selected and written in the fields above
+     * Performs the insertion of a train based on the information selected and written in the fields above
      */
     public void insertTrain(){
         try {

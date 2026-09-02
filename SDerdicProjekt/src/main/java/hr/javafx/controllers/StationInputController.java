@@ -33,7 +33,7 @@ public class StationInputController {
     List<Station> stations = DatabaseManager.getStations();
 
     /**
-     * Performs the insertion of an station based on the information selected and written in the fields above
+     * Performs the insertion of a station based on the information selected and written in the fields above
      */
     public void insertStation(){
         try{

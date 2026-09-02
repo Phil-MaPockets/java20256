@@ -63,7 +63,7 @@ public abstract sealed class Ticket implements Reservable, Serializable permits 
     @Override
     public void setReservation() throws SeatAlreadyReservedException {
         if(reserved.equals(SeatStatus.RESERVED)){
-            throw new SeatAlreadyReservedException("Sjedalo " + (getSeatNumber()+1) + " is already reserved");
+            throw new SeatAlreadyReservedException("Seat " + (getSeatNumber()+1) + " is already reserved");
         }
         this.reserved = SeatStatus.RESERVED;
     }

@@ -132,7 +132,7 @@ public class TrainController {
             TrainAdministrationApplication.getMainStage().show();
         } catch (IOException _) {
             DialogUtils.showDisplayingScreenError();
-            log.error("There was an error while selecting an train");
+            log.error("There was an error while selecting a train");
         }
     }
 
@@ -151,7 +151,7 @@ public class TrainController {
             TrainAdministrationApplication.getMainStage().show();
         } catch (IOException _) {
             DialogUtils.showDisplayingScreenError();
-            log.error("There was an error while selecting an train");
+            log.error("There was an error while selecting a train");
         }
     }
 
